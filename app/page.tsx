@@ -5,6 +5,12 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import Link from 'next/link';
 import { RiSeparator } from "react-icons/ri";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 
 export default function Home() {
@@ -196,6 +202,115 @@ export default function Home() {
                             </div>
         </section>
         </div>
+      </div>
+
+      <div>
+      <div className="flex justify-center"><h2 className="text-3xl lg:text-5xl">Courses</h2></div>
+      <div className="flex flex-col lg:pr-56 lg:pl-56 gap-2">
+        <div>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="text-sm lg:text-2xl">Fundamentos de Python</AccordionTrigger>
+              <AccordionContent className="lg:pr-56 lg:pl-56">
+              <section className="overflow-hidden relative rounded-xl lg:m-12  shadow-green-400 shadow-inner">
+                            <div className='flex flex-col backdrop-blur-3xl overflow-hidden'>
+                                <div className='flex items-center justify-between py-4 px-6'>
+                                    <div className='truncate'>
+                                            <h1 className='text-dark dark:text-white font-semibold text-lg lg:text-2xl z-20 hover:underline'>Platzi</h1>
+                                    </div>
+                                </div>
+                                <div className='shadow-md'>
+                                    <Image
+                                        src={"/intropython.jpg"}
+                                        priority={true}
+                                        className='rounded-xl'
+                                        alt={"weehub"}
+                                        width={400}
+                                        height={200}
+                                        sizes="100vw"
+                                        style={{
+                                            width: "100%",
+                                            height: "auto",
+                                            objectFit: "contain"
+                                        }} />
+                                </div>
+                            </div>
+        </section>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+
+
+        <div>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="text-sm lg:text-2xl">Fundamentos IA & DS</AccordionTrigger>
+              <AccordionContent className="lg:pr-56 lg:pl-56">
+              <section className="overflow-hidden relative rounded-xl lg:m-12  shadow-green-400 shadow-inner">
+                            <div className='flex flex-col backdrop-blur-3xl overflow-hidden'>
+                                <div className='flex items-center justify-between py-4 px-6'>
+                                    <div className='truncate'>
+                                            <h1 className='text-dark dark:text-white font-semibold text-lg lg:text-2xl z-20 hover:underline'>Platzi</h1>
+                                    </div>
+                                </div>
+                                <div className='shadow-md'>
+                                    <Image
+                                        src={"/aprenderia.jpg"}
+                                        priority={true}
+                                        className='rounded-xl'
+                                        alt={"weehub"}
+                                        width={400}
+                                        height={200}
+                                        sizes="100vw"
+                                        style={{
+                                            width: "100%",
+                                            height: "auto",
+                                            objectFit: "contain"
+                                        }} />
+                                </div>
+                            </div>
+        </section>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+
+        <div>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger className="text-sm lg:text-2xl">Análisis de Negocios DS</AccordionTrigger>
+              <AccordionContent className="lg:pr-56 lg:pl-56">
+              <section className="overflow-hidden relative rounded-xl lg:m-12  shadow-green-400 shadow-inner">
+                            <div className='flex flex-col backdrop-blur-3xl overflow-hidden'>
+                                <div className='flex items-center justify-between py-4 px-6'>
+                                    <div className='truncate'>
+                                            <h1 className='text-dark dark:text-white font-semibold text-lg lg:text-2xl z-20 hover:underline'>Platzi</h1>
+                                    </div>
+                                </div>
+                                <div className='shadow-md'>
+                                    <Image
+                                        src={"/data.jpg"}
+                                        priority={true}
+                                        className='rounded-xl'
+                                        alt={"weehub"}
+                                        width={400}
+                                        height={200}
+                                        sizes="100vw"
+                                        style={{
+                                            width: "100%",
+                                            height: "auto",
+                                            objectFit: "contain"
+                                        }} />
+                                </div>
+                            </div>
+        </section>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+
+      </div>
       </div>
 
     </main>
