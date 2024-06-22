@@ -119,7 +119,7 @@ export default function Home() {
                                         <a href={"https://ui-cann-ai.vercel.app/"} target='_blank' rel='noreferrer'>
                                             <h1 className='text-dark dark:text-white font-semibold text-lg lg:text-2xl z-20 hover:underline'>CannAsisst</h1>
                                         </a>
-                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-xs lg:text-lg whitespace-normal'>First medicinal cannabis artificial intelligence in Mexico.</p>
+                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-xs lg:text-lg whitespace-normal text-black dark:text-white'>First medicinal cannabis artificial intelligence in Mexico.</p>
                                     </div>
                                 </div>
                                 <div className='shadow-md'>
@@ -147,7 +147,7 @@ export default function Home() {
                                         <a href={"https://weehub.vercel.app/"} target='_blank' rel='noreferrer'>
                                             <h1 className='text-dark dark:text-white font-semibold text-lg lg:text-2xl z-20 hover:underline'>WeeHub</h1>
                                         </a>
-                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-xs lg:text-lg whitespace-normal'>It&apos;s an app for recreational cannabis in Mexico.</p>
+                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-xs lg:text-lg whitespace-normal text-black dark:text-white'>It&apos;s an app for recreational cannabis in Mexico.</p>
                                     </div>
                                 </div>
                                 <div className='shadow-md'>
@@ -175,7 +175,7 @@ export default function Home() {
                                         <a href={"https://qalcc.vercel.app/"} target='_blank' rel='noreferrer'>
                                             <h1 className='text-dark dark:text-white font-semibold text-lg lg:text-2xl z-20 hover:underline'>LCCDice</h1>
                                         </a>
-                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-xs lg:text-lg whitespace-normal'>It&apos;s an assistant app connected to OpenAI.</p>
+                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-xs lg:text-lg whitespace-normal text-black dark:text-white'>It&apos;s an assistant app connected to OpenAI.</p>
                                     </div>
                                 </div>
                                 <div className='shadow-md'>
