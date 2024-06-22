@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div className="col-span-2 flex flex-col">
             <div className="flex flex-row items-center gap-2 pb-4">
-              <h1 className="text-6xl font-bold">Welcome, I'm Arturo</h1>
+              <h1 className="text-6xl font-bold">Welcome, I&apos;m Arturo</h1>
               <FcApproval className="w-8 h-8"/>
             </div>
             <h2 className="text-4xl pl-6 pb-2">Software Engineer</h2>
