@@ -35,7 +35,7 @@ export default function Home() {
 
               <Link href={"https://github.com/lccorpmx"}>
                 <div>
-                  <FaGithubSquare className="text-white hover:text-gray-400"/>
+                  <FaGithubSquare className="dark:text-white hover:text-gray-400"/>
                 </div>
               </Link>
             </div>
