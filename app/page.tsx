@@ -145,7 +145,7 @@ export default function Home() {
                                         <a href={"w"} target='_blank' rel='noreferrer'>
                                             <h1 className='text-dark dark:text-white font-semibold text-2xl z-20 hover:underline'>WeeHub</h1>
                                         </a>
-                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-md'>It's an app for recreational cannabis in Mexico.</p>
+                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-md'>It&apos;s an app for recreational cannabis in Mexico.</p>
                                     </div>
                                 </div>
                                 <div className='shadow-md'>
@@ -173,7 +173,7 @@ export default function Home() {
                                         <a href={"w"} target='_blank' rel='noreferrer'>
                                             <h1 className='text-dark dark:text-white font-semibold text-2xl z-20 hover:underline'>LCCDice</h1>
                                         </a>
-                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-md'>It's an assistant app connected to OpenAI.</p>
+                                        <p className='text-dark/60 mix-blend-darken dark:text-inherit text-md'>It&apos;s an assistant app connected to OpenAI.</p>
                                     </div>
                                 </div>
                                 <div className='shadow-md'>
