@@ -31,7 +31,7 @@ export function Nav() {
             className="flex-shrink-0 font-bold text-2xl"
           >
             <Image
-              src="/LCCORP.svg" // Ruta de tu imagen (puede ser local o remota)
+              src="/lccorp.svg" // Ruta de tu imagen (puede ser local o remota)
               alt="Descripción de la imagen"
               width={35} // Ancho de la imagen
               height={35} // Alto de la imagen
