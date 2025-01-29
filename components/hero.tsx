@@ -30,6 +30,7 @@ export function Hero() {
         <div className="flex flex-col items-center space-y-4 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">Arturo ZR</h1>
+            <h2>Software Engineer</h2>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -39,8 +40,7 @@ export function Hero() {
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl dark:text-gray-400">
               <TypeAnimation
                 sequence={[
-                  "Software Engineer",
-                  1200,
+
                   "AI Enthusiast",
                   1200,
                   "Data Analyst",
@@ -48,6 +48,8 @@ export function Hero() {
                   "Dev. Front-End",
                   1200,
                   "UI/UX",
+                  1200,
+                  "Solutions",
                   1200,
                 ]}
                 wrapper="span"

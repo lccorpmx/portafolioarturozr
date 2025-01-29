@@ -3,6 +3,10 @@ import { Hero } from "@/components/hero"
 import { Projects } from "@/components/projects"
 import { Skills } from "@/components/skills"
 import { Contact } from "@/components/contact"
+import  {Courses}  from "@/components/courses"
+
+import Image from "next/image"
+
 
 export default function Home() {
   return (
@@ -12,6 +16,8 @@ export default function Home() {
         <Hero />
         <Projects />
         <Skills />
+        <Courses />
+
         <Contact />
       </main>
       <footer className="w-full py-6 bg-background">
